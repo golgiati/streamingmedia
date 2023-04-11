@@ -1,0 +1,61 @@
+/* --------------------------------------------*/
+/* custom horizontal scroll for trending songs */
+/*---------------------------------------------*/
+
+.scroll-trending {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+
+.scroll-trending section {
+    margin: 10px;
+    position: relative;
+}
+
+.scroll-trending div {
+    position: absolute;
+    top: 251px;
+    background-color: rgba(255, 255, 255, .75);
+    padding: 5px;
+    height: 60px;
+    width: 350px;
+}
+
+/*----------------------------------------------------------*/
+/* custom horizontal scroll for playlists and curated songs */
+/*----------------------------------------------------------*/
+
+.scroll-playlists {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+
+.scroll-playlists section {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.scroll-curated {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+
+.scroll-curated section {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
